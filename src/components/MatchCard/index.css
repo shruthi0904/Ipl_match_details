@@ -1,0 +1,45 @@
+.match-card {
+    width: 47%;
+    height: 250px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #0f172a;
+  }
+  @media screen and (min-width: 972px) {
+    .match-card {
+      width: 31%;
+      margin: 8px;
+      padding: 8px;
+    }
+  }
+  .match-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .match-heading {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 18px;
+  }
+  .match-result {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 12px;
+  }
+  .loss {
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    color: #e31a1a;
+  }
+  .won {
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    color: #18ed66;
+  }
+  

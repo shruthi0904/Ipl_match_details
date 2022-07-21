@@ -1,0 +1,79 @@
+.latest-match-card {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    margin-bottom: 16px;
+  }
+  .latest-match-heading {
+    font-size: 15px;
+  }
+  .latest-match-logo-innings-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  @media screen and (min-width: 972px) {
+    .latest-match-logo-innings-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .latest-match-and-logo {
+      width: 60%;
+    }
+  }
+  .latest-match-and-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .latest-match-container {
+    text-align: left;
+  }
+  .innings-container {
+    border-top: 2px solid #475569;
+    padding-top: 10px;
+  }
+  @media screen and (min-width: 972px) {
+    .innings-container {
+      border-top: none;
+      padding-top: 0px;
+      text-align: right;
+    }
+  }
+  .competing-team {
+    font-size: 18px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .venue {
+    font-size: 11px;
+  }
+  .result {
+    font-size: 11px;
+  }
+  .competing-logo {
+    width: 130px;
+    margin-left: 10px;
+  }
+  .innings {
+    font-size: 14px;
+  }
+  .innings-value {
+    font-size: 12px;
+  }
+  .man-of-match {
+    font-size: 16px;
+  }
+  .man-of-match-value {
+    font-size: 13px;
+  }
+  .umpires {
+    font-size: 15px;
+  }
+  .umpires-value {
+    font-size: 11px;
+  }
+  
